@@ -8,3 +8,7 @@
 <p align="left">
   <img src="screenshots/2.png" width="1000" height="600"/>
 </p>
+<h3>In a new plocy JSON modify and insert new policies and resource from file policies.json</h3>
+<p align="left">
+  <img src="screenshots/3.png" width="1000" height="600"/>
+</p>
