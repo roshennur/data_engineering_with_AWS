@@ -12,3 +12,16 @@
 <p align="left">
   <img src="screenshots/3.png" width="1000" height="600"/>
 </p>
+<h3>Once pasted click on Next:Review and enter policy name and click Create Policy</h3>
+<p align="left">
+  <img src="screenshots/4.png" width="1000" height="600"/>
+</p>
+<h2>Now lets create new IAM user</h2>
+<h3>In the IAM console, click on Users -> Enter user name</h3>
+<p align="left">
+  <img src="screenshots/5.png" width="1000" height="600"/>
+</p>
+<h3>Next in Set Permissions: select "Attach ploicies directly" and in searchbox type the policy name we created recently and select -> Next</h3>
+<p align="left">
+  <img src="screenshots/6.png" width="1000" height="600"/>
+</p>
