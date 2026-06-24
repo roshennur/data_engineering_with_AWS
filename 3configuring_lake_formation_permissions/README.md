@@ -25,3 +25,25 @@
 <p align="left">
   <img src="screenshots/6.png" width="1000" height="600"/>
 </p>
+<h2>Now lets create new Amazon S3 bucket that can capture the results of any Athena queries</h2>
+<h3>go to s3 service -> create bucket, type bucket name and leave other settings as default -> click-on Create Bucket</h3>
+<p align="left">
+  <img src="screenshots/7.png" width="1000" height="600"/>
+</p>
+<h2>Now we can verify that our new user has access to CleanZoneDB and that the user can run Athena queries on table in this db</h2>
+<h3>Sign-out aws console and sign-in to new user account we created, and search for Athena service</h3>
+<p align="left">
+  <img src="screenshots/8.png" width="1000" height="600"/>
+</p>
+<h3>Before we can run an Athena Query, we need to set up a query result location in Amazon S3.</h3>
+<p align="left">
+  <img src="screenshots/9.png" width="1000" height="600"/>
+</p>
+<h3>Edit Settings -> Manage, then select s3 bucket name we created recently, click on Save</h3>
+<p align="left">
+  <img src="screenshots/10.png" width="1000" height="600"/>
+</p>
+<h3>On Editor tab, run the SQL query in picture below, if all permissions have been configured correctly, the result of the query should be displayed</h3>
+<p align="left">
+  <img src="screenshots/11.png" width="1000" height="600"/>
+</p>
