@@ -55,9 +55,22 @@
 <p align="left">
   <img src="screenshots/12.png" width="1000" height="600"/>
 </p>
-
-
-
+<h3>Then on the left bar: select Databases -> cleanzonedb</h3>
+<p align="left">
+  <img src="screenshots/13.png" width="1000" height="600"/>
+</p>
+<h3>Then click-on Actions on top right -> View permissions</h3>
+<p align="left">
+  <img src="screenshots/14.png" width="1000" height="600"/>
+</p>
+<h3>On the View Permissions screen: there's IAMAllowedPrincipals, select this and press Revoke button on top-right</h3>
+<p align="left">
+  <img src="screenshots/15.png" width="1000" height="600"/>
+</p>
+<h3>We wanna do same thing for csvtoparquet table: Databases -> cleanzonedb -> View Tables -> csvtoparquet -> click on Actions/View Permissions -> select IAMAllowedPrincipals -> Revoke</h3>
+<p align="left">
+  <img src="screenshots/16.png" width="1000" height="600"/>
+</p>
 
 
 
