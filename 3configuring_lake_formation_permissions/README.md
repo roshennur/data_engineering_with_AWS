@@ -71,8 +71,23 @@
 <p align="left">
   <img src="screenshots/16.png" width="1000" height="600"/>
 </p>
-
-
+<h2>Let's add specific Lake Formation permissions for our datalake-user to access the cleanzone database and csvtoparquet table</h2>
+<h3>LakeFormation console -> Databases -> click-on cleanzonedb -> View Tables -> csvtoparquet table -> then click Actions/Grant</h3>
+<p align="left">
+  <img src="screenshots/17.png" width="1000" height="600"/>
+</p>
+<h3>In the Grant Permssions page: from IAM users and roles dropdown, select datalake-user</h3>
+<p align="left">
+  <img src="screenshots/18.png" width="1000" height="600"/>
+</p>
+<h3>For Table Permissions, select Column-Based access -> Exclude columns -> select column "favorite_num" column -> click-on Grant</h3>
+<p align="left">
+  <img src="screenshots/19.png" width="1000" height="600"/>
+</p>
+<h3>Now if we log in to datalake-user and run the "Select * from cleanzonedb.csvtoparquet" query on Athena it will return only name column, bc we excluded column "favorite_num"</h3>
+<p align="left">
+  <img src="screenshots/20.png" width="1000" height="600"/>
+</p>
 
 
 
