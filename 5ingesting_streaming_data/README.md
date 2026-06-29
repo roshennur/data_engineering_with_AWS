@@ -52,7 +52,7 @@
 </p>
 <h3>Data source -> add data source -> S3 path: dataeng-landing-zone/streams/ -> add an s3 data source</h3>
 <p align="left">
-  <img src="screenshots/13.png" width="1000" height="600"/>
+  <img src="screenshots/13.png" width="400" height="600"/>
 </p>
 <h3>Leave other settings as default on Data source configuration page -> Next</h3>
 <p align="left">
