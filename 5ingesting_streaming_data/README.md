@@ -16,3 +16,32 @@
 <p align="left">
   <img src="screenshots/4.png" width="1000" height="600"/>
 </p>
+<h2>Configuring Amazon Kinesis Data Generator (KDG)</h2>
+<h3>Open the KDG help page in browser https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html -> Create Cognito User with CloudFormation</h3>
+<p align="left">
+  <img src="screenshots/5.png" width="1000" height="600"/>
+</p>
+<h3>Create stack page -> leave as default -> Next</h3>
+<p align="left">
+  <img src="screenshots/6.png" width="1000" height="600"/>
+</p>
+<h3>Specify stack details: provide username and password -> Next</h3>
+<p align="left">
+  <img src="screenshots/7.png" width="1000" height="600"/>
+</p>
+<h3>Configure stack options -> leave as default -> Next</h3>
+<p align="left">
+  <img src="screenshots/8.png" width="1000" height="600"/>
+</p>
+<h3>Submit the stack</h3>
+<p align="left">
+  <img src="screenshots/9.png" width="1000" height="600"/>
+</p>
+<h3>once stack has been successfully deployed -> Outputs tab -> click KinesisDataGeneratorUrl value -> enter username & password -> set Region as yours aws account -> copy template code from github file: template</h3>
+<p align="left">
+  <img src="screenshots/10.png" width="1000" height="600"/>
+</p>
+<h3>for strea/delivery stream -> select the Kinesis Data Firehose stream we created -> Records per second: 10 -> click send data -> wait KDG to send data for at least 3000-6000 records</h3>
+<p align="left">
+  <img src="screenshots/11.png" width="1000" height="600"/>
+</p>
