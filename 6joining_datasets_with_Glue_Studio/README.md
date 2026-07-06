@@ -71,4 +71,28 @@
 <p align="left">
   <img src="screenshots/17.png" width="1000" height="600"/>
 </p>
-
+<h2>Create a transform job to join streaming and film data using AWS Glue Studio</h2>
+<h3>Glue -> ETL jobs -> Visual ETL -> Add nodes -> Amazon S3 (source) -> select Data Catalog Table -> database: curatedzonedb -> Table: film_category -> name: s3-film_category</h3>
+<p align="left">
+  <img src="screenshots/18.png" width="1000" height="600"/>
+</p>
+<h3>Plus sign -> Amazon S3 (source) -> select Data Catalog Table -> database: streamingdb -> Table: streaming -> name: s3-streaming </h3>
+<p align="left">
+  <img src="screenshots/19.png" width="1000" height="600"/>
+</p>
+<h3>Plus sign -> Transforms -> Change schema -> Node parents: se-streaming -> name: schema-streaming -> change film_id on target key to film_id_streaming</h3>
+<p align="left">
+  <img src="screenshots/20.png" width="1000" height="600"/>
+</p>
+<h3>Plus sign -> Transform -> Join -> Node Parents: s3-film-category and schema-streaming -> Join Type: Left -> Join conditions: film_id vs film_id_streaming</h3>
+<p align="left">
+  <img src="screenshots/21.png" width="1000" height="600"/>
+</p>
+<h3>Plus sign -> Targets tab -> Amazon S3 -> Format: Parquet -> Compression type: Snappy -> Target location: dataeng-curated-zone/streaming/streaming-films/ -> Database: curatedzonedb -> Table name: streaming_films</h3>
+<p align="left">
+  <img src="screenshots/22.png" width="1000" height="600"/>
+</p>
+<h3>Job details Tab -> Name: Streaming Data Film Enrichment -> IAM role: DataEngGlueCWS3CuratedZoneRole< -> Nr. of workers: 2 -> Save -> Run/h3>
+<p align="left">
+  <img src="screenshots/23.png" width="1000" height="600"/>
+</p>
