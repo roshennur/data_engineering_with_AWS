@@ -62,4 +62,13 @@
 <p align="left">
   <img src="screenshots/15.png" width="1000" height="600"/>
 </p>
+<h2>Finalizing the denormalization transform job to write to s3</h2>
+<h3>Plus sign -> Targets -> Amazon s3 -> Format: Parquet -> Compression type: Snappy -> Target Location: dataeng-curated-zone/filmdb/film_category -> Database: curatedzonedb -> Table name: film_category</h3>
+<p align="left">
+  <img src="screenshots/16.png" width="1000" height="600"/>
+</p>
+<h3>Job Details Tab -> set name for job -> IAM role: select DataEngGlueCWS3CuratedZoneRole -> Number of workers: 2 -> Job Bookmark: Disable -> Nr. of retries: 0 -> Save -> Run</h3>
+<p align="left">
+  <img src="screenshots/17.png" width="1000" height="600"/>
+</p>
 
