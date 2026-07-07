@@ -43,8 +43,19 @@
 <p align="left">
   <img src="screenshots/10.png" width="1000" height="600"/>
 </p>
-
-
+<h2>Now let's create Glue DataBrew job</h2>
+<h3>AWS Glue DataBrew -> Jobs -> Create job -> Job name: mailing-list-job -> Job input: Project -> select customer-mailing-list project</h3>
+<p align="left">
+  <img src="screenshots/11.png" width="1000" height="600"/>
+</p>
+<h3>for S3 location: dataeng-clean-zone/mailing-list/ -> Permissions: create new IAM role -> suffix: mailing-list-job -> Create and run job</h3>
+<p align="left">
+  <img src="screenshots/12.png" width="1000" height="600"/>
+</p>
+<h3>when the job finishes running, the Job run history screen will be displayed, showing the status of the job</h3>
+<p align="left">
+  <img src="screenshots/13.png" width="1000" height="600"/>
+</p>
 
 
 
