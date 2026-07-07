@@ -9,3 +9,12 @@
 <p align="left">
   <img src="screenshots/2.png" width="1000" height="600"/>
 </p>
+<h2>Creating a new Glue DataBrew project</h2>
+<h3>AWS Glue DataBrew -> Projects -> Create project -> project name: customer-mailing-list -> Recipe details: Create new recipe -> Select a dataset: customer-dataset</h3>
+<p align="left">
+  <img src="screenshots/3.png" width="1000" height="600"/>
+</p>
+<h3>Permissions -> Create new IAM role -> IAM role suffix: dataengbook -> Create project</h3>
+<p align="left">
+  <img src="screenshots/4.png" width="1000" height="600"/>
+</p>
