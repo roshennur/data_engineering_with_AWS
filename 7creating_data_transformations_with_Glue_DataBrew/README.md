@@ -18,3 +18,39 @@
 <p align="left">
   <img src="screenshots/4.png" width="1000" height="600"/>
 </p>
+<h2>Let's build Glue DataBrew recipe</h2>
+<h3>Add step in the recipe panel -> select Join multiple datasets</h3>
+<p align="left">
+  <img src="screenshots/5.png" width="1000" height="600"/>
+</p>
+<h3>Select dataset: address-dataset -> Next</h3>
+<p align="left">
+  <img src="screenshots/6.png" width="1000" height="600"/>
+</p>
+<h3>Join type: Left -> Join keys: address_id both -> Column list: select only necessary columns for marketing team -> Finish</h3>
+<p align="left">
+  <img src="screenshots/7.png" width="1000" height="600"/>
+</p>
+<h3>Recipe panel: add step -> Format/Change to capital case -> Source column: first_name -> Format column: capital case -> Apply</h3>
+<p align="left">
+  <img src="screenshots/8.png" width="1000" height="600"/>
+</p>
+<h3>Recipe panel: add step -> Format/Change to capital case -> Source column: last_name -> Format column: capital case -> Apply</h3>
+<p align="left">
+  <img src="screenshots/9.png" width="1000" height="600"/>
+</p>
+<h3>Recipe panel: add step -> Format/Change to lowercase case -> Source column: email -> Format column: lowercase -> Apply</h3>
+<p align="left">
+  <img src="screenshots/10.png" width="1000" height="600"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
