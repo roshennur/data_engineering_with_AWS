@@ -1,0 +1,7 @@
+<h1 align="center">Deploying Redshift Serverless cluster and running Redshift Spectrum queries.</h1>
+<p>In this section we're going to create a new Redshift Serverless cluster and configure Redshift Spectrum so that we can query data in external tables on Amazon S3.</p>
+<h2>Uploading sample data to Amazon S3</h2>
+<h3>Download the generic data named "user_details.csv" from dataset folder -> Amazon S3 service -> dataeng-landing-zone -> create folder "users" -> upload csv file in it</h3>
+<p align="left">
+  <img src="screenshots/1.png" width="1000" height="600"/>
+</p>
