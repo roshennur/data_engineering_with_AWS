@@ -5,3 +5,12 @@
 <p align="left">
   <img src="screenshots/1.png" width="1000" height="600"/>
 </p>
+<h2>Let's create Role for Redshift</h2>
+<h3>AWS IAM -> Roles -> Create role -> select AWS service -> Use case: Redshift -> Redshift - customizable -> Next</h3>
+<p align="left">
+  <img src="screenshots/2.png" width="1000" height="600"/>
+</p>
+<h3>Attach 4 folliwing policies -> provide Role name: AmazonRedshiftSpectrumRole</h3>
+<p align="left">
+  <img src="screenshots/3.png" width="1000" height="600"/>
+</p>
