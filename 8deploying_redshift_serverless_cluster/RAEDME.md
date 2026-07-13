@@ -14,3 +14,16 @@
 <p align="left">
   <img src="screenshots/3.png" width="1000" height="600"/>
 </p>
+<h2>Creating a Redshift cluster</h2>
+<h3>Amazon Redshift -> Try Redshift Serverless free trial -> Configuration: Use default settings</h3>
+<p align="left">
+  <img src="screenshots/4.png" width="1000" height="600"/>
+</p>
+<h3>Associated IAM roles -> select AmazonRedshiftSpectrumRole -> click Associate IAM role -> select the role associated -> Set default -> Make default -> Confirm</h3>
+<p align="left">
+  <img src="screenshots/5.png" width="1000" height="600"/>
+</p>
+<h3>Save configuration -> this will create Amazon Redshift Cluster</h3>
+<p align="left">
+  <img src="screenshots/6.png" width="1000" height="600"/>
+</p>
