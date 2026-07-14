@@ -27,3 +27,12 @@
 <p align="left">
   <img src="screenshots/6.png" width="1000" height="600"/>
 </p>
+<h2>Now let's query data in the data lake with Redshift Spectrum</h2>
+<h3>Amazon Redshift Serverless dashboard -> Query data -> Query editor v2</h3>
+<p align="left">
+  <img src="screenshots/7.png" width="1000" height="600"/>
+</p>
+<h3>Connect to defoult workgroup we created -> federated user -> Create connection</h3>
+<p align="left">
+  <img src="screenshots/8.png" width="1000" height="600"/>
+</p>
