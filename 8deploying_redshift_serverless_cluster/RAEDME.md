@@ -36,3 +36,23 @@
 <p align="left">
   <img src="screenshots/8.png" width="1000" height="600"/>
 </p>
+<h3>in the database dropdown change db to dev, so our new schema is created in the db called dev</h3>
+<p align="left">
+  <img src="screenshots/9.png" width="1000" height="600"/>
+</p>
+<h3>run the following command to create external schema called spectrum_schema and also to create a new db in the Glue Data Catalog called users</h3>
+<p align="left">
+  <img src="screenshots/10.png" width="1000" height="600"/>
+</p>
+<h3>we can now define external table that will be registered in the Glue Data Catalog under our users database in Glue and in the spectrum_schema in Redshift</h3>
+<p align="left">
+  <img src="screenshots/11.png" width="1000" height="600"/>
+</p>
+<h3>we can see the schema we created by pressing refresh button on the left </h3>
+<p align="left">
+  <img src="screenshots/12.png" width="1000" height="600"/>
+</p>
+<h3>or we can query the sample of it to see dataset</h3>
+<p align="left">
+  <img src="screenshots/13.png" width="1000" height="600"/>
+</p>
