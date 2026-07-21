@@ -23,3 +23,13 @@
 <p align="left">
   <img src="screenshots/4.png" width="1000" height="600"/>
 </p>
+
+<h2>Let's create an SNS topic and subscribing to an email address</h2>
+<h3>Amazon SNS -> Topics -> Create topic -> Type: Standard -> provide name -> Create topic</h3>
+<p align="left">
+  <img src="screenshots/5.png" width="1000" height="600"/>
+</p>
+<h3>Protocol: email -> Endpoint: provide email address -> Create subscription</h3>
+<p align="left">
+  <img src="screenshots/6.png" width="1000" height="600"/>
+</p>
