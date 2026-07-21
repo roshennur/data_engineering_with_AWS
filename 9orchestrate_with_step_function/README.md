@@ -13,3 +13,13 @@
 <p align="left">
   <img src="screenshots/2.png" width="1000" height="600"/>
 </p>
+
+<h2>Create Lambda to randomly generate failures</h2>
+<h3>AWS Lambda -> Create function -> Author from scratch -> provide function name -> Runtime: Python 3.10 -> Create function</h3>
+<p align="left">
+  <img src="screenshots/3.png" width="1000" height="600"/>
+</p>
+<h3>in the Code source block -> replace existing code with the code below in picture -> Deploy</h3>
+<p align="left">
+  <img src="screenshots/4.png" width="1000" height="600"/>
+</p>
