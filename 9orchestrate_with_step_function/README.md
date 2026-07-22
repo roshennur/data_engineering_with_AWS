@@ -33,3 +33,45 @@
 <p align="left">
   <img src="screenshots/6.png" width="1000" height="600"/>
 </p>
+
+<h2>Creating a new Step Function state machine</h2>
+<h3>AWS Step Function -> State machines -> Create state machine -> select Blank and provide name: ProcessFilesStateMachine -> Continue</h3>
+<p align="left">
+  <img src="screenshots/7.png" width="1000" height="600"/>
+</p>
+<h3>Design Tab -> in the left drag AWS Lambda Invoke between start and end block -> provide state name -> for Function name: dataeng-check-file-ext</h3>
+<p align="left">
+  <img src="screenshots/8.png" width="1000" height="600"/>
+</p>
+<h3>Flow Tab on left -> drag Choice state between Lambda invoke and End state</h3>
+<p align="left">
+  <img src="screenshots/9.png" width="1000" height="600"/>
+</p>
+<h3>Configuration for new chaice state -> click pencil edit icon next to Rule #1 -> Add conditions -> Expression: $states.input.file_extension -> Operator: matches string -> value: .csv -> Save conditions</h3>
+<p align="left">
+  <img src="screenshots/10.png" width="1000" height="600"/>
+</p>
+<h3>Actions tab -> drag AWS Lambda Invoke to the left-hand side of the two choice boxes -> APi arguments: dataeng-random-failure function</h3>
+<p align="left">
+  <img src="screenshots/11.png" width="1000" height="600"/>
+</p>
+<h3>Flow tab -> drag Pass state to the Default rule box leading from Choice state -> Pass state output: paste following into box </h3>
+<p align="left">
+  <img src="screenshots/12.png" width="1000" height="600"/>
+</p>
+<h3>Actions tab -> drag Amazon SNS Publish state below Pass state -> API arguments: dataeng-failure-notification function</h3>
+<p align="left">
+  <img src="screenshots/13.png" width="1000" height="600"/>
+</p>
+<h3>click on Process CSV state -> Error handling tab -> Catch errors: click on Add new catcher -> Errors: States.ALL -> Fallback state: SNS Publish </h3>
+<p align="left">
+  <img src="screenshots/14.png" width="1000" height="600"/>
+</p>
+<h3>Flow tab -> drag Success state under the Process CSV state -> drag Fail state under the SNS Publish state </h3>
+<p align="left">
+  <img src="screenshots/15.png" width="1000" height="600"/>
+</p>
+<h3>Config tab -> provide State machine name -> Confirm</h3>
+<p align="left">
+  <img src="screenshots/16.png" width="1000" height="600"/>
+</p>
