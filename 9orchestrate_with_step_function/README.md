@@ -75,3 +75,30 @@
 <p align="left">
   <img src="screenshots/16.png" width="1000" height="600"/>
 </p>
+
+<h2>Configure S3 bucket to send events to EventBridge</h2>
+<h3>Amazon S3 -> click on dataeng-clean-zone bucket -> Properties tab -> sroll down Event Notifications section -> click Edit button next Amazon EventBridge</h3>
+<p align="left">
+  <img src="screenshots/17.png" width="1000" height="600"/>
+</p>
+<h3>click selector for On -> Save Changes</h3>
+<p align="left">
+  <img src="screenshots/18.png" width="1000" height="600"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
