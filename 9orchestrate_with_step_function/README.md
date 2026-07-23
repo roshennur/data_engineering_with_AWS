@@ -117,9 +117,15 @@
   <img src="screenshots/25.png" width="1000" height="600"/>
 </p>
 
-
-
-
+<h2>Testing our event driven data orchestration pipeline</h2>
+<h3>Amazon S3 -> dataeng-clean-zone -> Create folder -> name: chapter10 as we provided on Eventbridge JSON rule -> Create folder</h3>
+<p align="left">
+  <img src="screenshots/26.png" width="1000" height="600"/>
+</p>
+<h3>move into chapter10 folder -> upload .csv file ->go to AWS Step Functions -> click on ProcessFilesStateMachinr -> from the list of execution you will see whether state machine Succeeded or Failed</h3>
+<p align="left">
+  <img src="screenshots/27.png" width="1000" height="600"/>
+</p>
 
 
 
