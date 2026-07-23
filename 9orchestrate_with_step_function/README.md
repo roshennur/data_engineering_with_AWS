@@ -108,7 +108,14 @@
   <img src="screenshots/23.png" width="1000" height="600"/>
 </p>
 
-
+<h3>Rules -> click the rule we just created -> click Edit pattern under Event pattern JSON</h3>
+<p align="left">
+  <img src="screenshots/24.png" width="1000" height="600"/>
+</p>
+<h3>modify JSON as below -> Next -> Update rule</h3>
+<p align="left">
+  <img src="screenshots/25.png" width="1000" height="600"/>
+</p>
 
 
 
