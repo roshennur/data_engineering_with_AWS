@@ -86,6 +86,27 @@
   <img src="screenshots/18.png" width="1000" height="600"/>
 </p>
 
+<h2>Creating an EventBridge rule for triggering Step Functions state machine</h2>
+<h3>Amazon EventBridge -> Rules -> defaould Event Bus -> Create rule</h3>
+<p align="left">
+  <img src="screenshots/19.png" width="1000" height="600"/>
+</p>
+<h3>Builder mode: advanced builder -> provide name for rule -> Next</h3>
+<p align="left">
+  <img src="screenshots/20.png" width="1000" height="600"/>
+</p>
+<h3>Event source: AWS Events or EventBridge partner events -> Sample event type: AWS events -> Sample events: object created</h3>
+<p align="left">
+  <img src="screenshots/21.png" width="1000" height="600"/>
+</p>
+<h3>Creation method: use pattern form -> Event source: AWS services -> AWS service: s3 -> Event type: Amazon s3 event notification -> Specific events -> Object created -> Specific bucket name -> dataeng-clean-zone -> Next</h3>
+<p align="left">
+  <img src="screenshots/22.png" width="1000" height="600"/>
+</p>
+<h3>Target type: AWS service -> Select target: step function state machine -> State machine: ProcessFilesStateMachine -> Next</h3>
+<p align="left">
+  <img src="screenshots/23.png" width="1000" height="600"/>
+</p>
 
 
 
